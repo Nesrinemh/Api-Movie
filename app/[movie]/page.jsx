@@ -22,7 +22,7 @@ export default async function MovieDetail({ params }) {
         <h2 className=' text-sm bg-green-600 inline-block my-2 py-2 px-4  rounded-md'>
           {res.status}
         </h2>
-        <Image
+        <img
           className='my-12 w-full'
           src={`http://image.tmdb.org/t/p/original${res.backdrop_path}
           `}
