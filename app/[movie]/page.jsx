@@ -35,7 +35,6 @@ export default async function MovieDetail({ params }) {
           `}
           width={600}
           height={600}
-          priority
         />
         <p>{res.overview}</p>
       </div>
